@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 
+        elemen form
+        - input = kolom yang bisa menginputkan sesuatu
+        - textarea = biasanya buat ngisi pesan / komentar
+        - select = untuk drop down / combo box
+        - button = tombol
+        - label = menandai sebuah elemen input
+    -->
+
+<form action="">
+
+<h1>Text</h1>
+    <label for="username">username : </label>
+    <input type="text" id="username">
+<br> <br>
+
+<h1>Password</h1>
+    <label for="password">password : </label> 
+    <input type="password" id="password">
+<br> <br>
+
+<h1>Radio</h1>
+    <label for="male">Male </label>
+    <input type="radio" id="pria" name="gender">
+    <!-- name="jeniskelamin" dipakai agar tidak bisa memilih 2 kelamin -->
+    <label for="female">Female </label>
+    <input type="radio" id="wanita" name="gender">
+<br> <br>
+
+<h1>Checkbox</h1>
+    <label for="novice">Novice Programmer</label>
+    <input type="checkbox" id="novice">
+
+    <label for="advance">Advance Beginner Programmer</label>
+    <input type="checkbox" id="olahraga">
+
+    <label for="competent">Competent Programmer</label>
+    <input type="checkbox" id="competent">
+
+    <label for="proficient">Proficient Programmer</label>
+    <input type="checkbox" id="proficient">
+
+    <label for="expert">Expert Programmer</label>
+    <input type="checkbox" id="expert">
+<br> <br>
+
+<h1>Button</h1>
+<!-- 
+    - submit = untuk mengirimkan data
+    - reset = menghapus semua datanya
+    - button = memberi fungsi spesifik pada button
+-->
+    <button type="submit">Send</button>
+    <button type="reset">Delete</button>
+<br> <br>
+
+<h1>Text Area</h1>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+<br> <br>
+
+<h1>Select / Dropdown</h1>
+    <select name="" id="">
+        <option value="">Semarang</option>
+        <option value="">Pare</option>
+        <option value="">Bandung</option>
+    </select>
+<br> <br>
+
+</form>
+</body>
+</html>
