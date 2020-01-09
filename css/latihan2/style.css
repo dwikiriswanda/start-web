@@ -14,4 +14,9 @@ p {
 h1 {
     font-size:  150px;
     color: rgb(115, 2, 33);
+    text-transform: lowercase;
+}
+
+p {
+    
 }
