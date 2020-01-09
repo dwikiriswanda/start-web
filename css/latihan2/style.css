@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100px;
     font-variant: small-caps;
@@ -9,4 +9,9 @@ p {
     font-weight: bold;
     font-style: italic;
     line-height: 50px;
+} */
+
+h1 {
+    font-size:  150px;
+    color: rgb(115, 2, 33);
 }
