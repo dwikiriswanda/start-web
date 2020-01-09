@@ -19,5 +19,6 @@ h1 {
 
 p {
     text-indent: 100px;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
+    word-spacing: 20px;
 }
