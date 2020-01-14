@@ -2,5 +2,6 @@ body {
     /* background-color: lightgreen; */
     background-image: url(pic/img1.png);
     background-repeat: no-repeat;
+    background-position: center center;
 
 }
