@@ -30,3 +30,12 @@ li:last-child a{
 li:nth-child(2n) a{
     color: red;
 }
+
+/* memilih elemen pertama dari sebuah tag */
+p:first-of-type{
+    color: blueviolet;
+}
+/* memilih elemen terakhir dari sebuah tag */
+p:last-of-type{
+    color: orange;
+}
