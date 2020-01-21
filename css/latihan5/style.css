@@ -16,3 +16,17 @@
 .hello:visited{
     color: red;
 }
+
+/* anak pertama dari sebuah attribute */
+li:first-child a{
+    color: green;
+}
+/* anak terakhir dari sebuah attribute */
+li:last-child a{
+    color: violet;
+} 
+/* memilih anak tertentu dari sebuah attribute */
+/* 2parameter 2n = kelipatan 2, bisa diisi angka bahkan odd / even */
+li:nth-child(2n) a{
+    color: red;
+}
